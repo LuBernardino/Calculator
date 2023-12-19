@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+/* Mobile First */
+
+body {
+  background-image: linear-gradient(#5C5F74, #494b5c);
+  height: 80rem;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14rem;
+    text-transform: uppercase;
+    color: #FFF;
+    padding-bottom: 10rem;
+}
+
+header h1 {
+    background-color: #D88080;
+    font-size: 2rem;
+    padding: .4rem 2.4rem;
+    border-radius: .4rem;
+    box-shadow: .2rem .2rem .8rem rgb(50, 50, 50);
+}
+
+header #content button{
+    background: hsla(233, 15%, 23%, 0.5);
+    height: 4rem;
+    width: 4rem;
+    border-radius: .4rem;
+    border: none;
+    box-shadow: .2rem .2rem .8rem rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+#display {
+    color: #FFF;
+    text-align: right;
+    margin-bottom: 1.2rem;
+}
+
+#display #historic {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.3);
+    height: 3rem;
+}
+
+#display #result {
+    font-size: 8rem;
+    padding-bottom: 4rem;
+    height: 12rem;
+}
+
+#digits {
+    display: grid;
+    grid-template-columns: repeat(4, 8rem);
+    grid-template-rows: repeat(5, 8rem);
+    gap: 1rem;
+    justify-content: center;
+}
+
+#digits button {
+    background: #313342;
+    color: #FFF;
+    font-size: 3.2rem;
+    border: none;
+    box-shadow: .2rem .2rem .8rem rgb(50, 50, 50);
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+#digits button#equal {
+    grid-column: 4;
+    grid-row: 4/6;
+}
+
+#digits button#zero {
+    grid-column: 1/3;
+    grid-row: 5;
+}
+
+#digits button.operation-light {
+    background: hsla(0, 53%, 67%, 0.6);
+}
+
+#digits button.operation {
+    background-color: #D88080;
+}
+
+/* :hover transformations */
+
+header #content button:hover {
+    background: hsla(235, 14%, 15%, 0.5);
+}
+
+#digits button:hover {
+    background: #2a2c3a;
+}
+
+#digits button.operation-light:hover {
+    background: hsla(0, 41%, 61%, 0.6);
+}
+
+#digits button.operation:hover {
+    background-color: #bd6f6f;
+}
