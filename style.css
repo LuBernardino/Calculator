@@ -6,12 +6,27 @@
 
 :root {
     font-size: 62.5%;
+
+    /* colors */
+    --col-white: #FFF;
+    --col-primary: #D88080;
+    --col-pri-2: #bd6f6f;
+    --col-secundary: #313342;
+    --col-terciary: #2a2c3a;
+
+    --bg-primary: 
+
+    --col-box-shadow: rgb(50, 50, 50);
+    --col-sec-opc: rgba(255, 255, 255, 0.3);
+    --bg-primary-opc: hsla(233, 15%, 23%, 0.5);
+    --button-hover-color: hsla(235, 14%, 15%, 0.5);
+    --bg-pri-opc-hover: hsla(0, 41%, 61%, 0.6);
 }
 
 /* Mobile First */
 
 body {
-  background-image: linear-gradient(#5C5F74, #494b5c);
+  background-image: linear-gradient(#5C5F74, #4b4c55);
   height: 80rem;
   font-family: 'Poppins', sans-serif;
   border-radius: 1.2rem;
@@ -28,37 +43,37 @@ header {
     justify-content: space-between;
     gap: 14rem;
     text-transform: uppercase;
-    color: #FFF;
+    color: var(--col-white);
     padding-bottom: 10rem;
 }
 
 header h1 {
-    background-color: #D88080;
+    background-color: var(--col-primary);
     font-size: 2rem;
     padding: .4rem 2.4rem;
     border-radius: .4rem;
-    box-shadow: .2rem .2rem .8rem rgb(50, 50, 50);
+    box-shadow: .2rem .2rem .8rem  rgb(50, 50, 50);
 }
 
 header #content button{
-    background: hsla(233, 15%, 23%, 0.5);
+    background: var(--bg-primary-opc);
     height: 4rem;
     width: 4rem;
     border-radius: .4rem;
     border: none;
-    box-shadow: .2rem .2rem .8rem rgb(50, 50, 50);
+    box-shadow: .2rem .2rem .8rem  rgb(50, 50, 50);
     cursor: pointer;
 }
 
 #display {
-    color: #FFF;
+    color: var(--col-white);
     text-align: right;
     margin-bottom: 1.2rem;
 }
 
 #display #historic {
     font-size: 2rem;
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--col-sec-opc);
     height: 3rem;
 }
 
@@ -77,11 +92,11 @@ header #content button{
 }
 
 #digits button {
-    background: #313342;
-    color: #FFF;
+    background: var(--col-secundary);
+    color: var(--col-white);
     font-size: 3.2rem;
     border: none;
-    box-shadow: .2rem .2rem .8rem rgb(50, 50, 50);
+    box-shadow: .2rem .2rem .8rem  rgb(50, 50, 50);
     border-radius: 1.2rem;
     cursor: pointer;
 }
@@ -97,27 +112,27 @@ header #content button{
 }
 
 #digits button.operation-light {
-    background: hsla(0, 53%, 67%, 0.6);
+    background: var(--bg-pri-opc-hover);
 }
 
 #digits button.operation {
-    background-color: #D88080;
+    background-color: var(--col-primary);
 }
 
 /* :hover transformations */
 
 header #content button:hover {
-    background: hsla(235, 14%, 15%, 0.5);
+    background: var(--button-hover-color);
 }
 
 #digits button:hover {
-    background: #2a2c3a;
+    background: var(--col-terciary);
 }
 
 #digits button.operation-light:hover {
-    background: hsla(0, 41%, 61%, 0.6);
+    background: var(--bg-pri-opc-hover);
 }
 
 #digits button.operation:hover {
-    background-color: #bd6f6f;
+    background-color: var(--col-pri-2);
 }
