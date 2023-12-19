@@ -1,31 +1,25 @@
-//INSTRUÇÕES ABAIXO:
+<h1 align="center">CALCULATOR 🔢 </h1>
 
-Fonts
-- Noto Sans tam. 36 (Regular);
-- Poppins tam. 32 (Regular);
+> Projeto pessoal 
 
-Colors
-Mod Dark:
-- Background geral e buttons - 313342;
-- Background app - 5C5F74;
-- Special buttons - D88080;
-- Special buttons - D88080 com opacidade de 60%;
-- text principal - FFF;
-- text secondary - FFF com opacidade de 30%;
-- icons - 8D8F9E;
+<p>
+Projeto pessoal desenvolvido durante aprendizado, focado na criação de uma calculadora responsiva seguindo a abordagem "Mobile First".
 
-Colors
-Mod Light:
-- Background geral - E8E8E8;
-- Background app - B3B5C3;
-- buttons - 8A8DA4;
-- Special buttons - D88080;
-- Special buttons - D88080 com opacidade de 60%;
-- text principal - E8E8E8;
-- text secondary - FFF com opacidade de 30%;
-- icons - 47495B;
-     
+A calculadora oferece funcionalidades básicas de cálculo, sendo projetada de forma intuitiva e amigável para facilitar a interação do usuário. O código-fonte está disponível no GitHub, fornecendo uma oportunidade para colaboração, revisão e aprimoramento contínuo. Durante o desenvolvimento, foram aplicados conceitos de design responsivo e boas práticas de programação para criar uma aplicação eficiente e fácil de usar.
+</p>
+<br>
 
+[Clique aqui para acessar](https://lubernardino.github.io/Calculator/)
 
-Create by Luana Bernardino 🤓;
+![Descrição da imagem](figma-layout/Desktop_dark.png)
+![Descrição da imagem](figma-layout/Desktop_light.png)
+
+### 🧪 Tools
+
+- HTML
+- CSS
+- JavaScript (ES6 Modules)
+- Git e Github
+
+Create with 💜 by Luana Bernardino 🤓
 
